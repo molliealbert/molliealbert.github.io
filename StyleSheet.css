@@ -88,50 +88,52 @@ p {
     /*top: 75px;*/
     /*z-index:1;*/
     color: lightcoral;
-    background: white;
+    background-color: white;
+    ;
     width: 40%;
     padding-left: 5%;
-    height: 600px;
+    /*height:600px;*/
     border: solid;
     border-color: lightcoral;
 }
 
     .AboutText p {
-        position: absolute;
-        top: 50px;
-        left: 68px;
+        /*background-color:white;*/
+        /*position: absolute;*/
+        /* top: 50px;
+    left:68px;*/
         /*z-index:1;*/
         color: lightcoral;
         padding-right: 10%;
+        /*padding-left:10%;*/
     }
-
 
 .AmazonPhoto img {
     width: 25%;
     float: right;
-    padding: 10px;
-    padding-top: 19px;
+    padding: 1%;
+    padding-top: 3%;
 }
 
 .AthleticsPhoto img {
     width: 25%;
     float: right;
-    padding: 10px;
-    padding-top: 19px;
+    padding: 1%;
+    padding-top: 3%;
 }
 
 /*PROJECTS PAGE*/
 
 .project {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;*/
     border-radius: 5px;
     display: inline-block;
-    max-width: 45%;
+    width: 45%;
     height: 550px;
-    padding: 4px 4px;
-    padding-top: 25px;
-    margin: 10px;
+    /*padding: 4px 4px ;*/
+    padding-top: 2%;
+    margin-top: 3%;
     background-color: white;
     text-align: center;
     font-size: 100%;
