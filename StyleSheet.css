@@ -124,30 +124,56 @@ p {
 
 /*PROJECTS PAGE*/
 
-.project {
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;*/
-    border-radius: 5px;
-    display: inline-block;
-    width: 45%;
-    height: 550px;
-    /*padding: 4px 4px ;*/
-    padding-top: 2%;
+.project1 {
+    position: absolute;
     margin-top: 3%;
-    background-color: white;
     text-align: center;
-    font-size: 100%;
+    /*top: 75px;*/
+    /*z-index:1;*/
     color: lightcoral;
+    background-color: white;
+    width: 40%;
+    /*padding-left: 5%;*/
+    /*height:600px;*/
     border: solid;
     border-color: lightcoral;
 }
 
-    .project p {
+    .project1 p {
         color: lightcoral;
         text-align: left;
     }
 
-    .project a {
+    .project1 a {
+        text-decoration: none;
+        background-color: lightcoral;
+        color: white;
+        border-radius: 25px;
+        padding: 15px;
+    }
+
+.project2 {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 3%;
+    text-align: center;
+    /*top: 75px;*/
+    /*z-index:1;*/
+    color: lightcoral;
+    background-color: white;
+    width: 40%;
+    /*padding-left: 5%;*/
+    /*height:600px;*/
+    border: solid;
+    border-color: lightcoral;
+}
+
+    .project2 p {
+        color: lightcoral;
+        text-align: left;
+    }
+
+    .project2 a {
         text-decoration: none;
         background-color: lightcoral;
         color: white;
