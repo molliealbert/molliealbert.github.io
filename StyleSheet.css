@@ -2,7 +2,6 @@
 
 body {
     background-color: #E3D7BD;
-   
 }
 
 .HomeBody {
@@ -15,97 +14,103 @@ ul {
     padding: 0;
     background: #D3D0C9;
     overflow: hidden;
+    border: solid;
+    border-color: white;
 }
 
-li{
+li {
     float: left;
 }
 
-li a{
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    padding: 15px 20px;
-}
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 15px 20px;
+    }
 
-li a:hover {
-        background-color: lightcoral; 
-        zoom: 110%;
-}
+        li a:hover {
+            background-color: lightcoral;
+            zoom: 110%;
+        }
+
+
 
 
 /*HOME PAGE*/
 
- .ProfessionalPhoto img {
-    width: 25%;
+.ProfessionalPhoto img {
+    width: 30%;
     float: right;
-    position: relative;
-    top: 50px;
-    right: 100px;
+    padding-top: 10%;
+    padding-right: 10%;
+    /* position:relative;*/
+    /*top: 25%;*/ */
+    /*  right: 100px;*/
 }
 
 .MainText {
     border: double 8px;
     border-color: lightcoral;
-    position: relative;
-    top: 200px;
-    left:100px;
-    width:50%;
-    display: inline-block;
+    margin-top: 20%;
+    /*position: relative;*/
+    /* top: 25%;
+    left:10%;*/
+    width: 50%;
+    /* display: inline-block;*/
 }
 
-.MainText h1{
-    position:relative;
-    top: 0px;
-    left:100px;
-    font-size: 300%;
-    color:white;
-    display:compact
-}
+    .MainText h1 {
+        position: center;
+        /*left:10%;*/
+        font-size: 300%;
+        color: white;
+    }
 
 span {
-    color:lightcoral;
+    color: lightcoral;
 }
 
-p{
-    position:relative;
+p {
+    position: center;
     font-size: 125%;
-    top:-25px;
-    left:100px;
-    color:white;
+    /* top:-25px;
+    left:100px;*/
+    color: white;
 }
 
 /*ABOUT PAGE*/
 
 .AboutText {
     position: absolute;
-    top: 75px;
+    margin-top: 3%;
+    /*top: 75px;*/
     /*z-index:1;*/
     color: lightcoral;
     background: white;
     width: 40%;
     padding-left: 5%;
-    height:600px;
+    height: 600px;
     border: solid;
-    border-color:lightcoral;
+    border-color: lightcoral;
 }
 
-.AboutText p {
-    position: absolute;
-    top: 50px;
-    left:68px;
-    /*z-index:1;*/
-    color: lightcoral;
-    padding-right:10%;
-}
+    .AboutText p {
+        position: absolute;
+        top: 50px;
+        left: 68px;
+        /*z-index:1;*/
+        color: lightcoral;
+        padding-right: 10%;
+    }
 
 
 .AmazonPhoto img {
     width: 25%;
     float: right;
-    padding:10px;
-    padding-top:19px;
+    padding: 10px;
+    padding-top: 19px;
 }
 
 .AthleticsPhoto img {
@@ -124,29 +129,29 @@ p{
     display: inline-block;
     max-width: 45%;
     height: 550px;
-    padding: 4px 4px ;
-    padding-top:25px;
+    padding: 4px 4px;
+    padding-top: 25px;
     margin: 10px;
     background-color: white;
     text-align: center;
     font-size: 100%;
     color: lightcoral;
-    border:solid;
-    border-color:lightcoral;
+    border: solid;
+    border-color: lightcoral;
 }
 
-.project p{
-    color:lightcoral;
-    text-align:left;
-}
+    .project p {
+        color: lightcoral;
+        text-align: left;
+    }
 
-.project a{
- text-decoration:none;
- background-color:lightcoral;
- color:white;
- border-radius:25px;
- padding:15px;
-}
+    .project a {
+        text-decoration: none;
+        background-color: lightcoral;
+        color: white;
+        border-radius: 25px;
+        padding: 15px;
+    }
 
 /*SKILLS PAGE*/
 
@@ -154,18 +159,17 @@ p{
     float: right;
 }
 
-.Skills h1 {
-   
-    color: white;
-    background-color: lightcoral;
-    border: solid;
-    padding: 10px 27px 10px 27px;
-    text-align: center;
-    border-color: lightcoral;
-    width: 80%;
-}
+    .Skills h1 {
+        color: white;
+        background-color: lightcoral;
+        border: solid;
+        padding: 10px 27px 10px 27px;
+        text-align: center;
+        border-color: lightcoral;
+        width: 80%;
+    }
 
-.Skills h4 {
+    .Skills h4 {
         background: white;
         color: lightcoral;
         display: block;
@@ -175,14 +179,14 @@ p{
         padding: 10px 27px 10px 27px;
         text-align: center;
         font-size: 110%;
-}
+    }
 
 .Certifications h1 {
     color: white;
     background-color: lightcoral;
-    padding:10px 0px 10px 0px;
-    width:70%;
-    text-align:center;
+    padding: 10px 0px 10px 0px;
+    width: 70%;
+    text-align: center;
 }
 
 .card {
@@ -195,15 +199,15 @@ p{
     padding: 4px 4px;
     margin: 10px;
     background-color: white;
-    text-align:center;
+    text-align: center;
     font-size: 100%;
-    color:lightcoral;  
+    color: lightcoral;
 }
 
-.card:hover{
-    background-color:lightcoral;
-    color:white;
-}
+    .card:hover {
+        background-color: lightcoral;
+        color: white;
+    }
 
 /*EMPLOYMENT PAGE*/
 .Athletics {
@@ -212,11 +216,12 @@ p{
     width: 31%;
     text-align: center;
     background-color: lightcoral;
-    color:white;
-    border-radius:20px;
+    color: white;
+    border-radius: 20px;
 }
+
 .AthleticsHide {
-    position:relative;
+    position: relative;
     top: 210px;
     display: none;
     background-color: white;
@@ -228,8 +233,8 @@ p{
     color: lightcoral;
     background: white;
     width: 31%;
-    border:solid;
-    border-color:lightcoral;
+    border: solid;
+    border-color: lightcoral;
 }
 
 .Amazon {
@@ -270,7 +275,6 @@ p{
     background-color: lightcoral;
     color: white;
     border-radius: 20px;
-   
 }
 
 .MinitabHide {
@@ -290,6 +294,3 @@ p{
     border: solid;
     border-color: lightcoral;
 }
-
-
-
