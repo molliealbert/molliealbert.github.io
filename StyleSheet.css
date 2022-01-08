@@ -241,85 +241,55 @@ p {
 /*EMPLOYMENT PAGE*/
 .Athletics {
     position: absolute;
-    top: 100px;
+    margin-top: 2%;
     width: 31%;
     text-align: center;
-    background-color: lightcoral;
-    color: white;
-    border-radius: 20px;
-}
-
-.AthleticsHide {
-    position: relative;
-    top: 210px;
-    display: none;
     background-color: white;
-    font-size: 125%;
-}
-
-.Athletics:hover + .AthleticsHide {
-    display: block;
     color: lightcoral;
-    background: white;
-    width: 31%;
+    border-radius: 20px;
     border: solid;
     border-color: lightcoral;
 }
+
+    .Athletics p {
+        color: lightcoral;
+    }
 
 .Amazon {
     position: absolute;
-    top: 100px;
+    margin-top: 2%;
     left: 34.5%;
     width: 31%;
     text-align: center;
-    background-color: lightcoral;
-    color: white;
-    border-radius: 20px;
-}
-
-.AmazonHide {
-    position: relative;
-    left: 34.5%;
-    top: 210px;
-    display: none;
     background-color: white;
-    font-size: 125%;
-}
-
-.Amazon:hover + .AmazonHide {
-    display: block;
     color: lightcoral;
-    background: white;
-    width: 31%;
+    border-radius: 20px;
     border: solid;
     border-color: lightcoral;
 }
+
+    .Amazon p {
+        color: lightcoral;
+    }
 
 .Minitab {
     position: absolute;
-    top: 100px;
+    margin-top: 2%;
     left: 68.25%;
     width: 31%;
     text-align: center;
-    background-color: lightcoral;
-    color: white;
-    border-radius: 20px;
-}
-
-.MinitabHide {
-    position: relative;
-    left: 68.25%;
-    top: 210px;
-    display: none;
     background-color: white;
-    font-size: 125%;
-}
-
-.Minitab:hover + .MinitabHide {
-    display: block;
     color: lightcoral;
-    background: white;
-    width: 31%;
+    border-radius: 20px;
     border: solid;
     border-color: lightcoral;
 }
+
+    .Minitab p {
+        color: lightcoral;
+    }
+
+
+
+
+
